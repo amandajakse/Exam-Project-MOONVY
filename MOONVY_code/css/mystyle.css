@@ -113,13 +113,18 @@ h3 {
 	width: 100%;
 }
 
+.color_overlay {
+	position: absolute;
+	width: 100%;
+	left: 0px
+}
+
 .big_image_elements {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-
 }
 
 .button {
@@ -174,7 +179,7 @@ h3 {
 
 .front_page_image {
 	width: 32%;
-    height: auto;
+	height: auto;
 	display: block;
 }
 
