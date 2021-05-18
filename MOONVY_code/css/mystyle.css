@@ -27,9 +27,11 @@ html {
 	margin: 0;
 }
 
-h1 {
+h1,
+h2 {
 	font-family: Cambria, Georgia, serif;
 	font-weight: 700;
+	color: #9A6E6E;
 	/** font-family: 'Playfair Display', serif; **/
 }
 
@@ -37,6 +39,7 @@ h1 {
 .navigation_container {
 	position: sticky;
 	top: 0;
+	z-index: 100;
 }
 
 .header_top {
@@ -98,6 +101,7 @@ h1 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
+
 }
 
 .button {
@@ -107,6 +111,7 @@ h1 {
 	margin-top: 10px;
 	padding: 10px 20px;
 	border-radius: 100px;
+	cursor: pointer;
 }
 
 .dots {
@@ -118,7 +123,7 @@ h1 {
 	display: flex;
 }
 
-.dot{
+.dot {
 	width: 20px;
 	height: 20px;
 	border-radius: 100px;
@@ -126,7 +131,7 @@ h1 {
 	margin: 0 10px;
 }
 
-#pink{
+#pink {
 	background-color: #DBADAD
 }
 
@@ -134,4 +139,28 @@ h1 {
 	display: block;
 	margin: auto;
 	margin-top: 20px;
+}
+
+/* now trending and on sale sections */
+
+.section2 {
+	margin: 120px 30px;
+}
+
+.front_page_images {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.front_page_image {
+	height: 450px;
+	display: block;
+}
+
+
+/*the picture in the middle of the front page */
+
+.picture_middle {
+	width: 150%;
 }
