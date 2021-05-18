@@ -48,6 +48,7 @@ h1 {
 	padding: 10px;
 	display: flex;
 	justify-content: center;
+	background-color: white;
 }
 
 .menuitem {
@@ -78,4 +79,59 @@ h1 {
 	position: absolute;
 	right: 80px;
 	top: 18px;
+}
+
+/* image on the top of the page */
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+.big_image {
+	width: 100%;
+}
+
+.big_image_elements {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.button {
+	background-color: #DBADAD;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px 20px;
+	border-radius: 100px;
+}
+
+.dots {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	display: flex;
+}
+
+.dot{
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	background-color: white;
+	margin: 0 10px;
+}
+
+#pink{
+	background-color: #DBADAD
+}
+
+.arrow {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
 }
