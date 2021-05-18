@@ -144,7 +144,7 @@ h2 {
 /* now trending and on sale sections */
 
 .section2 {
-	margin: 120px 30px;
+	margin: 150px 30px;
 }
 
 .front_page_images {
@@ -162,5 +162,5 @@ h2 {
 /*the picture in the middle of the front page */
 
 .picture_middle {
-	width: 150%;
+	width: 100%;
 }
