@@ -4,31 +4,78 @@
 *,
 :after,
 :before {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 100%;
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
 }
 
 .page_body {
-    max-width: 100%;
-    padding: 5px;
-    margin: 0 auto;
+	max-width: 100%;
+	padding: 5px;
+	margin: 0 auto;
 }
 
 html {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 h1 {
-    font-family: Cambria, Georgia, serif;  
-    font-weight: 700;
-    /** font-family: 'Playfair Display', serif; **/
+	font-family: Cambria, Georgia, serif;
+	font-weight: 700;
+	/** font-family: 'Playfair Display', serif; **/
+}
+
+
+.navigation_container {
+	position: sticky;
+	top: 0;
+}
+
+.header_top {
+	background-color: #DBBEC0;
+}
+
+
+.menuitems_container {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.menuitem {
+	padding: 0 80px;
+	color: #9A6E6E;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+/* Display company logo */
+.companylogo {
+	display: block;
+	height: 70px;
+	margin: auto;
+}
+
+.bag_icon {
+	height: 35px;
+	position: absolute;
+	right: 30px;
+	top: 18px;
+}
+
+.search_icon {
+	height: 35px;
+	position: absolute;
+	right: 80px;
+	top: 18px;
 }
