@@ -30,4 +30,5 @@ html {
 h1 {
     font-family: Cambria, Georgia, serif;  
     font-weight: 700;
+    /** font-family: 'Playfair Display', serif; **/
 }
