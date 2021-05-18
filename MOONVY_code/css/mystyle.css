@@ -49,6 +49,8 @@ h3 {
 }
 
 
+/**-----HEADER-----**/
+
 .navigation_container {
 	position: sticky;
 	top: 0;
@@ -97,6 +99,8 @@ h3 {
 	right: 80px;
 	top: 18px;
 }
+
+/**-----MAIN-----**/
 
 /* image on the top of the page */
 
@@ -169,7 +173,8 @@ h3 {
 }
 
 .front_page_image {
-	height: 450px;
+	width: 32%;
+    height: auto;
 	display: block;
 }
 
@@ -181,7 +186,7 @@ h3 {
 }
 
 
-/* footer */
+/**-----FOOTER-----**/
 
 .footer_container {
 	background-color: #DBBEC0;
