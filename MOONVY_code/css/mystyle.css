@@ -69,11 +69,12 @@ h3 {
 }
 
 .menuitem {
-	padding: 10px 80px;
+	padding: 6px;
+	margin: 0 80px;
 	color: #9A6E6E;
 	text-decoration: none;
 	text-align: center;
-	font-size: 20px;
+	font-size: 26px;
 	font-family: Cambria, Georgia, serif;
 }
 
@@ -130,7 +131,7 @@ h3 {
 .button {
 	background-color: #DBADAD;
 	color: white;
-	padding: 15px 25px;
+	padding: 20px 30px;
 	border-radius: 100px;
 	cursor: pointer;
 	font-size: 25px;
