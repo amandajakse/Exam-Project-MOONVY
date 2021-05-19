@@ -175,7 +175,7 @@ h3 {
 .front_page_images {
 	display: flex;
 	justify-content: space-between;
-	margin: 30px 0;
+	margin: 10px 0 30px;
 }
 
 .front_page_image {
