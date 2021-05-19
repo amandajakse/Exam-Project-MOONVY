@@ -5,10 +5,19 @@ var images = ["pictures/edward-xu-eTVe9uwYV84-unsplash%20(1).png", "pictures/and
 var currentImage = 0;
 
 function changePhotoLoop() {
-	image.src = images[currentImage];
+    image.src = images[currentImage];
 
-	if (++currentImage >= images.length)
-		currentImage = 0;
+    if (++currentImage >= images.length)
+        currentImage = 0;
 }
 
 setInterval(changePhotoLoop, 8000);
+
+/** JS on shop page **/
+
+// picture animation
+
+
+//clickable filter names
+
+// document.getElementById("myBtn").addEventListener("click", displayDate);

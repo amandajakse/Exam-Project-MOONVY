@@ -88,17 +88,17 @@ h3 {
 }
 
 .bag_icon {
-	height: 35px;
+	height: 25px;
 	position: absolute;
 	right: 30px;
-	top: 18px;
+	top: 22px;
 }
 
 .search_icon {
-	height: 35px;
+	height: 25px;
 	position: absolute;
 	right: 80px;
-	top: 18px;
+	top: 22px;
 }
 
 /**-----MAIN-----**/
