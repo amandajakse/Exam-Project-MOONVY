@@ -13,11 +13,25 @@ function changePhotoLoop() {
 
 setInterval(changePhotoLoop, 8000);
 
-/** JS on shop page **/
-
-// picture animation
 
 
-//clickable filter names
+/** filter options can be selected on shop page **/
 
-// document.getElementById("myBtn").addEventListener("click", displayDate);
+function myFunction() {
+  document.getElementById("filter_button1").style.cssText = "opacity: 100%; font-weight: 700;";
+}
+function myFunction2() {
+  document.getElementById("filter_button2").style.cssText = "opacity: 100%; font-weight: 700;";
+}
+function myFunction3() {
+  document.getElementById("filter_button3").style.cssText = "opacity: 100%; font-weight: 700;";
+}
+function myFunction4() {
+  document.getElementById("filter_button4").style.cssText = "opacity: 100%; font-weight: 700;";
+}
+function myFunction5() {
+  document.getElementById("filter_button5").style.cssText = "opacity: 100%; font-weight: 700;";
+}
+function myFunction6() {
+  document.getElementById("filter_button6").style.cssText = "opacity: 100%; font-weight: 700;";
+}

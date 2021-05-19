@@ -45,20 +45,21 @@
 
 
         <div class="filter_group">
-            <p class="filter_btn active_button">ALL</p>
-            <p class="filter_btn">TRENDING</p>
-            <p class="filter_btn">NEW</p>
-            <p class="filter_btn">SALE</p>
-            <p class="filter_btn">EARRINGS</p>
-            <p class="filter_btn">NECKLACES</p>
-            <p class="filter_btn">SETS</p>
+            <p class="filter_btn active_button" >ALL</p>
+            <p class="filter_btn" id="filter_button1" onclick="myFunction()">TRENDING</p>
+            <p class="filter_btn" id="filter_button2" onclick="myFunction2()">NEW</p>
+            <p class="filter_btn" id="filter_button3" onclick="myFunction3()">SALE</p>
+            <p class="filter_btn" id="filter_button4" onclick="myFunction4()">EARRINGS</p>
+            <p class="filter_btn" id="filter_button5" onclick="myFunction5()">NECKLACES</p>
+            <p class="filter_btn " id="filter_button6" onclick="myFunction6()">SETS</p>
         </div>
 
         <div class="shop_item_container">
 
             <a href="#" class="shop_item">
                 <p class="new_tag">NEW</p>
-                <img src="pictures/product1.png" alt="picture of product" class="product_image" id="product_image">
+                <div class="image_wrapper">
+                <img src="pictures/product1.png" alt="picture of product" class="product_image" id="product_image"></div>
                 <p class="product_name">Philosophia earrings</p>
                 <p class="product_price">60,00DKK</p>
             </a>
