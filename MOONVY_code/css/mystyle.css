@@ -69,12 +69,12 @@ h3 {
 }
 
 .menuitem {
-	padding: 6px;
-	margin: 0 80px;
+	padding: 10px;
+	margin: 0 70px;
 	color: #9A6E6E;
 	text-decoration: none;
 	text-align: center;
-	font-size: 26px;
+	font-size: 20px;
 	font-family: Cambria, Georgia, serif;
 }
 
@@ -169,13 +169,13 @@ h3 {
 /* now trending and on sale sections */
 
 .section2 {
-	margin: 150px 30px;
+	margin: 180px 30px;
 }
 
 .front_page_images {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px 0 30px;
+	margin: 10px 0 50px;
 }
 
 .front_page_image {
@@ -198,6 +198,7 @@ h3 {
 	background-color: #DBBEC0;
 	padding: 60px;
 	color: white;
+	margin-top: 40px;
 }
 
 
