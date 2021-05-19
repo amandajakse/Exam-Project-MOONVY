@@ -89,19 +89,18 @@ h3 {
 }
 
 .bag_icon {
-	height: 25px;
+	height: 33px;
 	position: absolute;
 	right: 30px;
 	top: 22px;
 }
 
 .search_icon {
-	height: 25px;
+	height: 30px;
 	position: absolute;
 	right: 80px;
 	top: 22px;
 }
-
 /**-----MAIN-----**/
 
 /** filters **/
@@ -141,11 +140,11 @@ h3 {
     width: 90%;
 }
 .product_name {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 .product_price{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 .sale_old{
