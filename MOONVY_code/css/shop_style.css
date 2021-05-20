@@ -79,6 +79,10 @@ h3 {
 .active_menuitem {
     text-decoration: underline;
 }
+.underline_on_hover:hover {
+    text-decoration: underline;
+}
+
 
 
 /* Display company logo */

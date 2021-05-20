@@ -78,6 +78,9 @@ h3 {
 	font-family: Cambria, Georgia, serif;
 }
 
+.underline_on_hover:hover {
+    text-decoration: underline;
+}
 
 
 /* Display company logo */
