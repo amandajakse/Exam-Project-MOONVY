@@ -105,6 +105,7 @@ h3 {
 .about_container{
     max-width: 85%;
     margin: 50px auto;
+    padding-bottom: 70px;
 }
 .about_header{
     padding-top: 30px;
@@ -117,6 +118,7 @@ h3 {
 }
 .about_story_image{
     max-width: 49%;
+    height: auto;
     text-align: center;
     margin: 0 auto;
 }
@@ -125,9 +127,14 @@ h3 {
 }
 .About_materials_image_container{
     max-width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 .about_materials_image{
-    max-width: 100%;
+    max-width: 48%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
