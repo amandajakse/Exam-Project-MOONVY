@@ -17,7 +17,7 @@ setInterval(changePhotoLoop, 8000);
 
 /** filter options can be selected on shop page **/
 
-function myFunction() {
+function myFunction1() {
   document.getElementById("filter_button1").style.cssText = "opacity: 100%; font-weight: 700;";
 }
 function myFunction2() {
@@ -37,5 +37,17 @@ function myFunction6() {
 }
 
 
+<<<<<<< HEAD
 /** dropdown on product page **/
 
+=======
+/** event listener for 'send message' button **/
+
+document.getElementById("sendmssg").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Your message has been sent. MOONVY will get back at you shortly.");
+    
+    
+}
+>>>>>>> af2e124b73993413e2a70f82653883ed1a76ba45
