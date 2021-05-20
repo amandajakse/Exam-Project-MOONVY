@@ -37,9 +37,6 @@ function myFunction6() {
 }
 
 
-<<<<<<< HEAD
-/** dropdown on product page **/
-
 =======
 /** event listener for 'send message' button **/
 
@@ -47,7 +44,7 @@ document.getElementById("sendmssg").addEventListener("click", myFunction);
 
 function myFunction() {
   alert ("Your message has been sent. MOONVY will get back at you shortly.");
-    
-    
+
+
 }
 >>>>>>> af2e124b73993413e2a70f82653883ed1a76ba45
