@@ -1,0 +1,172 @@
+/** HERE WE WRITE CSS **/
+
+/* Basic CSS reset */
+*,
+:after,
+:before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
+}
+
+.page_body {
+	max-width: 100%;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Cambria, Georgia, serif;
+	font-weight: 700;
+	color: #9A6E6E;
+	/** font-family: 'Playfair Display', serif; **/
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+
+/**-----HEADER-----**/
+
+.navigation_container {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.header_top {
+	background-color: #DBBEC0;
+}
+
+
+.menuitems_container {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.menuitem {
+	padding: 10px;
+	margin: 0 70px;
+	color: #9A6E6E;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-family: Cambria, Georgia, serif;
+}
+
+
+
+/* Display company logo */
+.companylogo {
+	display: block;
+	height: 70px;
+	margin: auto;
+}
+
+.bag_icon {
+	height: 33px;
+	position: absolute;
+	right: 30px;
+	top: 22px;
+}
+
+.search_icon {
+	height: 30px;
+	position: absolute;
+	right: 80px;
+	top: 22px;
+}
+
+/**-----MAIN-----**/
+.about_container{
+    max-width: 85%;
+    margin: 50px auto;
+}
+.about_header{
+    padding-top: 30px;
+}
+.about_bodytext{}
+.about_story_image_container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.about_story_image{
+    max-width: 49%;
+    text-align: center;
+    margin: 0 auto;
+}
+.About_day_image{
+    max-width: 100%;
+}
+.About_materials_image_container{
+    max-width: 100%;
+}
+.about_materials_image{
+    max-width: 100%;
+}
+
+
+
+
+/**-----FOOTER-----**/
+
+.footer_container {
+	background-color: #DBBEC0;
+	padding: 60px;
+	color: white;
+	margin-top: 40px;
+}
+
+
+
+.some_logo {
+	height: 70px;
+}
+
+
+.footer_section {
+	display: flex;
+	justify-content: center;
+}
+
+.footer_element {
+	margin: 0 80px;
+}
+
+
+.footer_link {
+	text-decoration: none;
+	color: white;
+}
+
+.underline {
+	background-color: white;
+	width: 200px;
+	height: 3px;
+	margin: 20px 0;
+}

@@ -17,7 +17,7 @@ setInterval(changePhotoLoop, 8000);
 
 /** filter options can be selected on shop page **/
 
-function myFunction() {
+function myFunction1() {
   document.getElementById("filter_button1").style.cssText = "opacity: 100%; font-weight: 700;";
 }
 function myFunction2() {
