@@ -59,7 +59,17 @@
 
 		<section class="section_product">
 
+
 			<img src="pictures/Image%2011.png" alt="smooth snake like necklace" class="picure_product">
+
+			<div class="dots_product">
+
+				<div class="dot" id="pink"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+
+			</div>
+
 
 			<div class="product_actions">
 
@@ -88,9 +98,9 @@
 
 
 						<div class="ammount_button">
-							<button class="minus_plus">-</button>
-							<span class="number">1</span>
-							<button class="minus_plus">+</button>
+							<button class="minus_plus" type="button">-</button>
+							<span class="number" id="productAmount">1</span>
+							<button class="minus_plus" type="button" onclick="addOne()">+</button>
 						</div>
 
 
@@ -112,18 +122,17 @@
 
 				<div class="description_element">
 
-					<div class="description_header">
-						<h2>DESCRIPTION &nbsp;</h2><span>▼</span>
-					</div>
-
-					<p>‘Smooth Like a Snake’ necklace is from the newest collection. It’s a simple design with a snake pendant which is coated in golden colour with rhinestones. This jewellery piece is easy to style and the golden color makes the necklace look so beautiful. A trendy piece that you definitely must have.</p>
+					<button class="description_header" onclick="hideFunction()">
+						DESCRIPTION &nbsp;<span style="font-size: 20px">▼</span>
+					</button>
+					<p id="description" class="hide">‘Smooth Like a Snake’ necklace is from the newest collection. It’s a simple design with a snake pendant which is coated in golden colour with rhinestones. This jewellery piece is easy to style and the golden color makes the necklace look so beautiful. A trendy piece that you definitely must have.</p>
 
 				</div>
 
 				<div class="description_element">
 
 					<div class="description_header">
-						<h2>DETAILS &nbsp;</h2><span>▼</span>
+						DETAILS &nbsp;<span style="font-size: 20px">▼</span>
 					</div>
 
 					<p>- Not waterproof <br>
@@ -138,7 +147,7 @@
 				<div class="description_element">
 
 					<div class="description_header">
-						<h2>SHIPPING AND RETURNS &nbsp;</h2><span>▼</span>
+						SHIPPING AND RETURNS &nbsp;<span style="font-size: 20px">▼</span>
 					</div>
 
 					<p>- All items will be sent either untracked or tracked

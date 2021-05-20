@@ -28,6 +28,15 @@ main {
 	padding-right: 25px
 }
 
+.dots_product {
+	position: absolute;
+	bottom: 10px;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	color: white;
+	display: flex;
+}
+
 /* elements to the right */
 .product_actions {
 	padding-left: 25px;
@@ -63,6 +72,8 @@ main {
 	color: #DBADAD;
 	cursor: pointer;
 }
+
+
 
 /*amount button*/
 
@@ -113,6 +124,15 @@ main {
 	color: #9A6E6E;
 	display: flex;
 	align-items: center;
+	background-color: white;
+	cursor: pointer;
+	font-family: Cambria, Georgia, serif;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.hide {
+	display: none;
 }
 
 
