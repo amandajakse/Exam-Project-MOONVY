@@ -35,3 +35,14 @@ function myFunction5() {
 function myFunction6() {
   document.getElementById("filter_button6").style.cssText = "opacity: 100%; font-weight: 700;";
 }
+
+
+/** event listener for 'send message' button **/
+
+document.getElementById("sendmssg").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Your message has been sent. MOONVY will get back at you shortly.");
+    
+    
+}
