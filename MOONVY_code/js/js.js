@@ -35,3 +35,7 @@ function myFunction5() {
 function myFunction6() {
   document.getElementById("filter_button6").style.cssText = "opacity: 100%; font-weight: 700;";
 }
+
+
+/** dropdown on product page **/
+
