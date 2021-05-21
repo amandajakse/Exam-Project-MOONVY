@@ -1,5 +1,6 @@
 /** HERE WE WRITE JAVASCRIPT **/
 
+/** changeing images on home page **/
 var image = document.getElementById("image");
 var currentImage = 0;
 var images = ["pictures/edward-xu-eTVe9uwYV84-unsplash%20(1).png", "pictures/andie-gomez-acebo-sEq4onJnWrI-unsplash.png", "pictures/EstTnfPW4AE8Y_G.jpg"]
