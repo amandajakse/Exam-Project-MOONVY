@@ -37,15 +37,15 @@ h3 {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 33px;
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 20px;
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 15px;
 }
 
 
@@ -134,11 +134,11 @@ h3 {
 .button {
 	background-color: #DBADAD;
 	color: white;
-	padding: 20px;
-	width: 270px;
+	padding: 13px;
+	width: 220px;
 	border-radius: 100px;
 	cursor: pointer;
-	font-size: 25px;
+	font-size: 18px;
 	display: block;
 	margin: auto;
 }
@@ -167,13 +167,34 @@ h3 {
 .arrow {
 	display: block;
 	margin: auto;
-	margin-top: 20px;
+    width: 50px;
+
+
+}
+
+/*bouncing arrow https://codepen.io/bitstarr/pen/XjaJGz*/
+
+.bounce {
+     animation: bounce 2s infinite;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-25px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
 
 /* now trending and on sale sections */
 
 .section2 {
-	margin: 180px 50px;
+	margin: 100px 50px;
 }
 
 .front_page_images {
@@ -198,6 +219,7 @@ h3 {
 
 /**-----FOOTER-----**/
 
+
 .footer_container {
 	background-color: #DBBEC0;
 	padding: 60px;
@@ -205,7 +227,9 @@ h3 {
 	margin-top: 40px;
 }
 
-
+.footer_header {
+    margin-bottom: -10px;
+}
 
 .some_logo {
 	height: 70px;

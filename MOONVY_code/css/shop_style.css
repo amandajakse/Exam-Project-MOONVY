@@ -37,15 +37,15 @@ h3 {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 33px;
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 20px;
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 15px;
 }
 
 /**-----HEADER-----**/
@@ -202,7 +202,9 @@ h3 {
 	color: white;
 }
 
-
+.footer_header {
+    margin-bottom: -10px;
+}
 
 .some_logo {
 	height: 70px;
