@@ -69,7 +69,8 @@ function addOne() {
 
 	document.getElementById('productAmount').innerHTML = productAmount;
 	return true
-}
+} 
+
 
 
 
