@@ -2,126 +2,158 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/mystyle.css">
-	<title>MOONVY Jewelery | Home</title>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/checkout.css">
+    <title>MOONVY Jewelery | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-	<header class="navigation_container">
-		<div class="header_top">
+    <header class="navigation_container">
+        <div class="header_top">
 
-			<!--The company logo -->
-			<a href="index.html"><img alt="logo" src="pictures/logo.png" class="companylogo"></a>
+            <!--The company logo -->
+            <a href="index.html"><img alt="logo" src="pictures/logo.png" class="companylogo"></a>
 
-			<!-- search -->
-			<img alt="search icom" src="pictures/search_icon.PNG" class="search_icon">
+            <!-- search -->
+            <img alt="search icom" src="pictures/search_icon.PNG" class="search_icon">
 
-			<!-- Link to shopping cart -->
-			<a href="checkout.html"><img alt="shopping cart icom" src="pictures/shoppingbag_icon.PNG" class="bag_icon"></a>
+            <!-- Link to shopping cart -->
+            <a href="checkout.html"><img alt="shopping cart icom" src="pictures/shoppingbag_icon.PNG" class="bag_icon"></a>
 
-		</div>
+        </div>
 
-		<nav>
+        <nav>
 
-			<!-- Menu items -->
-			<div class="menuitems_container">
-				<a href="shop.html" class="menuitem underline_on_hover">Shop</a>
-				<a href="about.html" class="menuitem underline_on_hover">About</a>
-				<a href="contact.html" class="menuitem underline_on_hover">Contact</a>
+            <!-- Menu items -->
+            <div class="menuitems_container">
+                <a href="shop.html" class="menuitem underline_on_hover">Shop</a>
+                <a href="about.html" class="menuitem underline_on_hover">About</a>
+                <a href="contact.html" class="menuitem underline_on_hover">Contact</a>
 
 
-			</div>
+            </div>
 
-		</nav>
+        </nav>
 
-	</header>
-    
+    </header>
+
     <main>
-    <div>
-        <div>
-        <h2>YOUR  BAG</h2>
-        
-        
-        
+
+
+        <div class="checkout_container">
+            
+            
+            
+            <div class="bag_container">
+                <h2 class="bag_header">YOUR BAG</h2>
+                <div class="item_container">
+                    <img src="pictures/Image%2011.png" alt="Picture of product" class="product_img">
+                    <div class="product_info">
+                        <p class="product_name">Smooth like a snake necklace</p>
+                        <p class="product_price">65,00 DKK</p>
+                        <div class="ammount_button">
+                            <button class="minus_plus" type="button">-</button>
+                            <span class="number" id="productAmount">1</span>
+                            <button class="minus_plus" type="button" onclick="addOne()">+</button>
+                        </div>
+                    </div>
+                    <img src="pictures/closing_icon.png" alt="Removing icon" class="remove_icon">
+                </div>
+                
+                <div class="item_container">
+                    <img src="pictures/product1.png" alt="Picture of product" class="product_img">
+                    <div class="product_info">
+                        <p class="product_name">Philosophia earrings</p>
+                        <p class="product_price">70,00 DKK</p>
+                        <div class="ammount_button">
+                            <button class="minus_plus" type="button">-</button>
+                            <span class="number" id="productAmount">1</span>
+                            <button class="minus_plus" type="button" onclick="addOne()">+</button>
+                        </div>
+                    </div>
+                    <img src="pictures/closing_icon.png" alt="Removing icon" class="remove_icon">
+                </div>
+            </div>
+            
+
+            <div class="total_container">
+                <h2 class="total_header">TOTAL</h2>
+                <p class="total_proce">135,00 DKK</p>
+                <p class="checkout_btn">CHECKOUT</p>
+            </div>
+
+
+
+
+
         </div>
-        
-        <div>
-        <h2>TOTAL</h2>
-            <p>135,00 DKK</p>
-            <p>CHECKOUT</p>
-        </div>
-        
-        
-        
-        
-        
-        </div>
-    
-    
-    
-    
-    
+
+
+
+
+
     </main>
-    
-    
-	<footer class="footer_container">
 
 
-		<div class="footer_section">
-
-			<div class="footer_element">
-
-				<h3 class="footer_header" style="color: white">HELP AND INFO</h3>
-				<div class="underline"></div>
-				<a class="footer_link" href="#">Help</a><br>
-				<a class="footer_link" href="#">Shipping and returns</a><br>
-				<a class="footer_link" href="#">Policy</a><br>
-				<a class="footer_link" href="#">Help</a><br>
-				<a class="footer_link" href="#">Covid-19 information</a><br>
-				<a class="footer_link" href="contact.html">Contact us</a><br>
-				<a class="footer_link" href="#">Terms of service</a><br>
-
-			</div>
-
-			<div class="footer_element">
-
-				<h3 class="footer_header" style="color: white">CONTACT</h3>
-
-				<div class="underline"></div>
-
-				<span>Email:<br>moonvyjewellery@gmail.com
-				</span><br><br>
-				<span>Phone:<br>+45 12 34 56 78
-				</span>
-
-			</div>
-
-			<div class="footer_element">
-
-				<h3 class="footer_header" style="color: white">FOLLOW</h3>
-
-				<div class="underline"></div>
-
-				<div>
-					<a href="https://www.instagram.com/moonvy_jewellery/"><img alt="instagram logo" class="some_logo" src="pictures/white-instagram-icon-png.png"> </a>
-					<a href="https://www.tiktok.com/@moonvy_jewellery?"><img alt="tiktok logo" class="some_logo" src="pictures/tiktok-48.png"> </a>
-				</div>
-
-			</div>
-
-		</div>
+    <footer class="footer_container">
 
 
+        <div class="footer_section">
 
-	</footer>
+            <div class="footer_element">
 
-	<!-- scripts -->
-	<script src="js/js.js"></script>
-</body></html>
+                <h3 class="footer_header" style="color: white">HELP AND INFO</h3>
+                <div class="underline"></div>
+                <a class="footer_link" href="#">Help</a><br>
+                <a class="footer_link" href="#">Shipping and returns</a><br>
+                <a class="footer_link" href="#">Policy</a><br>
+                <a class="footer_link" href="#">Help</a><br>
+                <a class="footer_link" href="#">Covid-19 information</a><br>
+                <a class="footer_link" href="contact.html">Contact us</a><br>
+                <a class="footer_link" href="#">Terms of service</a><br>
+
+            </div>
+
+            <div class="footer_element">
+
+                <h3 class="footer_header" style="color: white">CONTACT</h3>
+
+                <div class="underline"></div>
+
+                <span>Email:<br>moonvyjewellery@gmail.com
+                </span><br><br>
+                <span>Phone:<br>+45 12 34 56 78
+                </span>
+
+            </div>
+
+            <div class="footer_element">
+
+                <h3 class="footer_header" style="color: white">FOLLOW</h3>
+
+                <div class="underline"></div>
+
+                <div>
+                    <a href="https://www.instagram.com/moonvy_jewellery/"><img alt="instagram logo" class="some_logo" src="pictures/white-instagram-icon-png.png"> </a>
+                    <a href="https://www.tiktok.com/@moonvy_jewellery?"><img alt="tiktok logo" class="some_logo" src="pictures/tiktok-48.png"> </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+    <!-- scripts -->
+    <script src="js/js.js"></script>
+</body>
+
+</html>
