@@ -149,7 +149,8 @@ form {
     border-radius: 50px;
     padding: 10px 15px 10px 15px;
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
    
 
