@@ -80,3 +80,24 @@ function hideFunction() {
 		paragraph.classList.add("hide");
 	}
 }
+
+function hideFunction2() {
+	var paragraph = document.getElementById("details");
+
+	if (paragraph.classList.contains("hide")) {
+		paragraph.classList.remove("hide");
+	} else {
+		paragraph.classList.add("hide");
+	}
+}
+
+function hideFunction3() {
+	var paragraph = document.getElementById("shipping");
+
+	if (paragraph.classList.contains("hide")) {
+		paragraph.classList.remove("hide");
+	} else {
+		paragraph.classList.add("hide");
+	}
+}
+
