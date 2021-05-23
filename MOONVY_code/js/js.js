@@ -52,7 +52,7 @@ function myFunction() {
 	alert("Your message has been sent. MOONVY will get back at you shortly.");
 
 
-} 
+}
 
 
 
@@ -65,7 +65,7 @@ function addOne() {
 
 	document.getElementById('productAmount').innerHTML = productAmount;
 	return true
-} 
+}
 
 
 
@@ -102,3 +102,30 @@ function hideFunction3() {
 	}
 }
 
+/** in the product page changes the arrow next to description button **/
+function changeArrow1() {
+	var arrow = document.getElementById("arrow1");
+	if (arrow.innerHTML === "▼") {
+		arrow.innerHTML = "▲";
+	} else {
+		arrow.innerHTML = "▼";
+	}
+}
+
+function changeArrow2() {
+	var arrow = document.getElementById("arrow2");
+	if (arrow.innerHTML === "▼") {
+		arrow.innerHTML = "▲";
+	} else {
+		arrow.innerHTML = "▼";
+	}
+}
+
+function changeArrow3() {
+	var arrow = document.getElementById("arrow3");
+	if (arrow.innerHTML === "▼") {
+		arrow.innerHTML = "▲";
+	} else {
+		arrow.innerHTML = "▼";
+	}
+}
