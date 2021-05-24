@@ -37,17 +37,6 @@ main {
 	display: flex;
 }
 
-.button {
-	background-color: #DBADAD;
-	color: white;
-	padding: 13px;
-	width: 220px;
-	border-radius: 100px;
-	cursor: pointer;
-	font-size: 18px;
-	display: block;
-	margin: auto;
-}
 
 /* elements to the right */
 .product_actions {
@@ -115,6 +104,18 @@ main {
 	font-size: 30px;
 }
 
+.button {
+	background-color: #DBADAD;
+	color: white;
+	padding: 13px;
+	width: 220px;
+	border-radius: 100px;
+	cursor: pointer;
+	font-size: 18px;
+	display: block;
+	margin: auto;
+}
+
 /* section with descriptions and reviews */
 
 .section_text {
@@ -178,6 +179,12 @@ main {
 
 /* other products */
 
+.front_page_images {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0 50px;
+}
+
 .shop_item {
 	text-decoration: none;
 	color: #3A3A3A;
@@ -208,6 +215,10 @@ main {
 	font-weight: 400;
 }
 
+.section_other_products {
+	overflow-x: hidden;
+}
+
 
 @media only screen and (max-width: 800px) {
 	main {
@@ -226,10 +237,80 @@ main {
 		max-width: 100%;
 		width: 100%;
 		padding: 0;
+		margin-bottom: 30px
 	}
+
+
 
 	.product_header {
 		display: flex;
 
 	}
+
+	.section_text {
+		flex-direction: column;
+	}
+
+	.description {
+		width: 100%;
+		margin-bottom: 30px;
+		padding: 25px;
+	}
+
+	.reviews {
+		width: 100%;
+		padding-right: 25px;
+	}
+
+
+	.select {
+		width: 190px;
+		padding: 15px 10px;
+		margin-right: 20px
+	}
+
+	.ammount_button {
+		width: 150px;
+	}
+
+	.minus_plus {
+		margin: 0;
+	}
+
+	.product_actions {
+		width: auto;
+		padding-right: 25px;
+	}
+
+	.options {
+		margin: 50px 0;
+	}
+
+	.header_reviews {
+		margin: 25px;
+	}
+
+	.front_page_images {
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+		margin: 0 5px;
+	}
+
+	.shop_item {
+		width: 200px;
+		margin: 20px;
+	}
+
+	.product_image {
+		max-width: 100%;
+	}
+
+	.product_name {
+		display: block;
+		width: 180px;
+	}
+
+
 }

@@ -232,3 +232,59 @@ h3 {
 	height: 3px;
 	margin: 20px 0;
 }
+
+
+
+@media only screen and (min-width: 800px) {
+	.shop_item_container_mobile{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	
+.filter_group {
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+	justify-content: flex-start;
+	}
+	
+	.shop_item_container_mobile{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.shop_item_container{
+		display: none;
+	}
+	
+	.product_image{
+		max-width: 100%;
+	}
+	
+	.pdroduct_row{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.shop_item{
+		width: 100%;
+	}
+	
+	.product_name{
+		margin-left: 20px;
+	}
+	
+	.product_price{
+				margin-left: 20px;
+
+	}
+	
+	.space {
+		width: 20px;
+	}
+
+}
