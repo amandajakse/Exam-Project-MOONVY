@@ -141,7 +141,7 @@ main {
 /*reviews part*/
 
 .header_reviews {
-    font-size: 25px;
+	font-size: 25px;
 }
 
 .reviews {
@@ -194,4 +194,30 @@ main {
 .product_price {
 	font-size: 1.1rem;
 	font-weight: 400;
+}
+
+
+@media only screen and (max-width: 800px) {
+	main {
+		margin: 0;
+	}
+
+	.product_links {
+		display: none;
+	}
+
+	.section_product {
+		flex-direction: column;
+	}
+
+	.picure_product {
+		max-width: 100%;
+		width: 100%;
+		padding: 0;
+	}
+	
+	.product_header {
+		display: flex;
+		
+	}
 }
