@@ -37,6 +37,18 @@ main {
 	display: flex;
 }
 
+.button {
+	background-color: #DBADAD;
+	color: white;
+	padding: 13px;
+	width: 220px;
+	border-radius: 100px;
+	cursor: pointer;
+	font-size: 18px;
+	display: block;
+	margin: auto;
+}
+
 /* elements to the right */
 .product_actions {
 	padding-left: 25px;
@@ -215,9 +227,9 @@ main {
 		width: 100%;
 		padding: 0;
 	}
-	
+
 	.product_header {
 		display: flex;
-		
+
 	}
 }
