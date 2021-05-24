@@ -1,0 +1,196 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
+}
+
+.page_body {
+	max-width: 100%;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Cambria, Georgia, serif;
+	font-weight: 700;
+	color: #9A6E6E;
+	/** font-family: 'Playfair Display', serif; **/
+}
+
+h1 {
+	font-size: 33px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+
+
+/**-----MAIN-----**/
+
+/* image on the top of the page */
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+.big_image {
+	width: 100%;
+}
+
+.color_overlay {
+	position: absolute;
+	width: 100%;
+	left: 0px
+}
+
+.big_image_elements {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.button {
+	background-color: #DBADAD;
+	color: white;
+	padding: 13px;
+	width: 220px;
+	border-radius: 100px;
+	cursor: pointer;
+	font-size: 18px;
+	display: block;
+	margin: auto;
+}
+
+.dots {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	display: flex;
+}
+
+.dot {
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	background-color: white;
+	margin: 0 10px;
+}
+
+#pink {
+	background-color: #DBADAD
+}
+
+.arrow {
+	display: block;
+	margin: auto;
+	width: 50px;
+
+
+}
+
+/*bouncing arrow https://codepen.io/bitstarr/pen/XjaJGz*/
+
+.bounce {
+	animation: bounce 2s infinite;
+}
+
+
+@keyframes bounce {
+
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-25px);
+	}
+
+	60% {
+		transform: translateY(-10px);
+	}
+}
+
+/* now trending and on sale sections */
+
+.section2 {
+	margin: 100px 50px;
+}
+
+.front_page_images {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0 50px;
+}
+
+.front_page_image {
+	width: 32%;
+	height: auto;
+	display: block;
+}
+
+
+/*the picture in the middle of the front page */
+
+.picture_middle {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+	.container {
+		margin-bottom: 50px;
+	}
+
+	.big_image_elements_mobile {
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+}

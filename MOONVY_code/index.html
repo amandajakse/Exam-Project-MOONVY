@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/mystyle.css">
+	<link rel="stylesheet" href="css/frontpage.css">
 	<title>MOONVY Jewelery | Home</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,14 +18,38 @@
 	<header class="navigation_container">
 		<div class="header_top">
 
-			<!--The company logo -->
+			<!-- mobile menu -->
+
+			<span class="mobileicon" onclick="openMenu()">&#9776;</span>
+
+			<div id="overlay" class="overlay">
+
+				<a class="x_button" onclick="closeMenu()">&times;</a>
+
+				<div class="overlay-links">
+					<a class="overlay_link" href="shop.html">SHOP</a>
+					<a class="overlay_link" href="about.html">ABOUT</a>
+					<a class="overlay_link" href="contact.html">Contact</a>
+
+					<div>
+						<a href="#"><img class="menu_some_icon" alt="instagram icon" src="pictures/white-instagram-icon-png.png"></a>
+
+						<a href="#"><img class="menu_some_icon" alt="instagram icon" src="pictures/tiktok-48.png"></a>
+					</div>
+				</div>
+
+				<a href="index.html"><img class="menu_logo" alt="logo" src="pictures/logo.png"></a>
+
+			</div>
+
+			<!--The logo -->
 			<a href="index.html"><img alt="logo" src="pictures/logo.png" class="companylogo"></a>
 
 			<!-- search -->
 			<img alt="search icom" src="pictures/search_icon.PNG" class="search_icon">
 
 			<!-- Link to shopping cart -->
-			<a href="checkout.html"><img alt="shopping cart icom" src="pictures/shoppingbag_icon.PNG" class="bag_icon"></a>
+			<a href="checkout.html"><img alt="bag icom" src="pictures/shoppingbag_icon.PNG" class="bag_icon"></a>
 
 		</div>
 
@@ -47,84 +72,167 @@
 
 	<main>
 
-		<section class="section1">
+		<section class="desktop">
 
-			<div class="container">
+			<div class="section1">
 
-				<img src="pictures/edward-xu-eTVe9uwYV84-unsplash%20(1).png" alt="woman with necklace" id="image" class="big_image">
+				<div class="container">
 
-				<img alt="colour overlay" class="color_overlay" src="pictures/Rectangle%2024.png">
+					<img src="pictures/edward-xu-eTVe9uwYV84-unsplash%20(1).png" alt="woman with necklace" id="image" class="big_image">
 
-				<div class="big_image_elements">
-					<h1 style="color: white">NEW ARRIVALS</h1> <br>
-					<form method="get" action="shop.html">
-						<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
-					</form>
+					<img alt="colour overlay" class="color_overlay" src="pictures/Rectangle%2024.png">
 
-			<img src="pictures/Path%2036.png" alt="arrow" class="arrow bounce">
+
+					<div class="big_image_elements">
+						<h1 style="color: white">NEW ARRIVALS</h1> <br>
+						<form method="get" action="shop.html">
+							<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
+						</form>
+
+						<img src="pictures/Path%2036.png" alt="arrow" class="arrow bounce">
+					</div>
+
+
+
 				</div>
 
 
-
 			</div>
 
+			<div class="section2">
 
-		</section>
+				<h2>NOW TRENDING</h2>
 
-		<section class="section2">
+				<div class="front_page_images">
 
-			<h2>NOW TRENDING</h2>
+					<img class="front_page_image" alt="jewellery" src="pictures/Group%20104.png">
+					<img class="front_page_image" alt="jewellery" src="pictures/Group%20105.png">
+					<img class="front_page_image" alt="jewellery" src="pictures/Group%20106.png">
 
-			<div class="front_page_images">
+				</div>
 
-				<img class="front_page_image" alt="jewellery" src="pictures/Group%20104.png">
-				<img class="front_page_image" alt="jewellery" src="pictures/Group%20105.png">
-				<img class="front_page_image" alt="jewellery" src="pictures/Group%20106.png">
-
-			</div>
-
-			<form method="get" action="shop.html">
-				<button class="button" type="submit">DISCOVER MORE</button>
-			</form>
-
-		</section>
-
-		<div class="container">
-
-			<img src="pictures/andie-gomez-acebo-sEq4onJnWrI-unsplash.png" alt="picture of woman with 2 necklaces" class="picture_middle">
-
-			<img alt="colour overlay" class="color_overlay" src="pictures/Rectangle%2024.png">
-
-			<div class="big_image_elements">
-				<h1 style="color: white;">JEWELLERY SETS</h1> <br>
 				<form method="get" action="shop.html">
-					<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
+					<button class="button" type="submit">DISCOVER MORE</button>
 				</form>
 
 			</div>
 
-		</div>
+			<div class="container">
 
-		<section class="section2">
+				<img src="pictures/andie-gomez-acebo-sEq4onJnWrI-unsplash.png" alt="picture of woman with 2 necklaces" class="picture_middle">
 
-			<h2>ON SALE</h2>
+				<img alt="colour overlay" class="color_overlay" src="pictures/Rectangle%2024.png">
 
-			<div class="front_page_images">
+				<div class="big_image_elements">
+					<h1 style="color: white;">JEWELLERY SETS</h1> <br>
+					<form method="get" action="shop.html">
+						<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
+					</form>
 
-				<img class="front_page_image" alt="jewellery" src="pictures/Image%2012.png">
-				<img class="front_page_image" alt="jewellery" src="pictures/Group%20108.png">
-				<img class="front_page_image" alt="jewellery" src="pictures/Image%2013.png">
+				</div>
 
 			</div>
 
-			<form method="get" action="shop.html">
-				<button class="button" type="submit">DISCOVER MORE</button>
-			</form>
+			<div class="section2">
+
+				<h2>ON SALE</h2>
+
+				<div class="front_page_images">
+
+					<img class="front_page_image" alt="jewellery" src="pictures/Image%2012.png">
+					<img class="front_page_image" alt="jewellery" src="pictures/Group%20108.png">
+					<img class="front_page_image" alt="jewellery" src="pictures/Image%2013.png">
+
+				</div>
+
+				<form method="get" action="shop.html">
+					<button class="button" type="submit">DISCOVER MORE</button>
+				</form>
+
+			</div>
 
 		</section>
 
 
 
+		<!-- mobile version o front page -->
+
+		<section class="mobile">
+
+			<div class="container">
+
+				<img src="pictures/Group%2068.png" alt="woman with necklace" class="big_image">
+
+				<img alt="colour overlay" class="color_overlay" src="pictures/Rectangle%2033.png">
+
+
+				<div class="big_image_elements">
+
+					<h1 style="color: white">NEW ARRIVALS</h1> <br>
+
+					<form method="get" action="shop.html">
+						<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
+					</form>
+
+					<img src="pictures/Path%2036.png" alt="arrow" class="arrow bounce">
+				</div>
+
+			</div>
+
+			<div class="container">
+
+				<img src="pictures/Group%2068.png" alt="woman with necklace" class="big_image">
+
+
+				<div class="big_image_elements_mobile">
+
+					<h1 style="color: white">NOW TRENDING</h1> <br>
+
+					<form method="get" action="shop.html">
+						<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
+					</form>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+
+				<img src="pictures/Group%2068.png" alt="woman with necklace" class="big_image">
+
+				<img alt="colour overlay" class="color_overlay" src="pictures/Rectangle%2033.png">
+
+
+				<div class="big_image_elements">
+
+					<h1 style="color: white">JEWELLERY SETS</h1> <br>
+
+					<form method="get" action="shop.html">
+						<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
+					</form>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+
+				<img src="pictures/Group%2068.png" alt="woman with necklace" class="big_image">
+
+
+				<div class="big_image_elements_mobile">
+
+					<h1 style="color: white">ON SALE</h1> <br>
+
+					<form method="get" action="shop.html">
+						<button class="button" type="submit" style="margin-top: -20px">DISCOVER MORE</button>
+					</form>
+
+				</div>
+
+			</div>
+
+		</section>
 
 	</main>
 

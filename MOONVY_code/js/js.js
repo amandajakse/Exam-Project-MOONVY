@@ -129,3 +129,14 @@ function changeArrow3() {
 		arrow.innerHTML = "▼";
 	}
 }
+
+
+/* Open and close mobile menu */
+
+function openMenu() {
+	document.getElementById("overlay").style.width = "100%";
+}
+
+function closeMenu() {
+	document.getElementById("overlay").style.width = "0%";
+}
