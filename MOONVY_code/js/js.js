@@ -72,6 +72,17 @@ function addOne() {
 }
 
 
+var productAmount;
+
+function minusOne() {
+	if (productAmount > 1)
+		productAmount--;
+
+	document.getElementById('productAmount').innerHTML = productAmount;
+	return true
+}
+
+
 
 
 /** product page hide and show product description **/
