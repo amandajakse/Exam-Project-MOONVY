@@ -46,7 +46,11 @@ function myFunction6() {
 
 /** event listener for 'send message' button **/
 
-document.getElementById("sendmssg").addEventListener("click", myFunction);
+try {
+	document.getElementById("sendmssg").addEventListener("click", myFunction)
+} catch {
+	console.log('id sendmssg not found')
+}
 
 function myFunction() {
 	alert("Your message has been sent. MOONVY will get back at you shortly.");
