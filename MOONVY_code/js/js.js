@@ -3,16 +3,27 @@
 /** changeing images on home page **/
 var image = document.getElementById("image");
 var currentImage = 0;
-var images = ["pictures/edward-xu-eTVe9uwYV84-unsplash%20(1).png", "pictures/andie-gomez-acebo-sEq4onJnWrI-unsplash.png", "pictures/EstTnfPW4AE8Y_G.jpg"]
+var images = ["pictures/banner_picture_1.jpg", "pictures/banner_picture_2.jpg", "pictures/banner_picture_3.jpg"]
 
 function changePhotoLoop() {
-	image.src = images[currentImage];
+
+	try {
+		image.src = images[currentImage]
+	} catch {
+		console.log('The id image is not found on this page')
+	}
 
 	if (++currentImage >= images.length)
 		currentImage = 0;
+
 }
 
-setInterval(changePhotoLoop, 8000);
+try {
+	setInterval(changePhotoLoop, 10000)
+} catch {
+	console.log('setInterval only works on certain pages')
+}
+
 
 
 
@@ -154,4 +165,38 @@ function openMenu() {
 
 function closeMenu() {
 	document.getElementById("overlay").style.width = "0%";
+}
+
+
+
+
+/* slideshow*/
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+// Thumbnail image controls
+function currentSlide(n) {
+	showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+	if (n > slides.length) {
+		slideIndex = 1
+	}
+	if (n < 1) {
+		slideIndex = slides.length
+	}
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex - 1].style.display = "block";
+	dots[slideIndex - 1].className += " active";
 }
