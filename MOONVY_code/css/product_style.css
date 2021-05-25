@@ -17,7 +17,7 @@ main {
 
 /*menu*/
 .underline_on_hover:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* the image and elements to the right of it */
@@ -234,6 +234,10 @@ main {
 
 /* other products */
 
+.header_products {
+	font-size: 25px;
+}
+
 .front_page_images {
 	display: flex;
 	justify-content: space-between;
@@ -342,9 +346,7 @@ main {
 		margin: 50px 0;
 	}
 
-	.header_reviews {
-		margin: 25px;
-	}
+
 
 	.front_page_images {
 		overflow-x: scroll;
@@ -357,6 +359,10 @@ main {
 	.shop_item {
 		width: 200px;
 		margin: 20px;
+	}
+
+	.header_products {
+		margin: 25px;
 	}
 
 	.product_image {
