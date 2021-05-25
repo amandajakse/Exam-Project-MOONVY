@@ -15,6 +15,11 @@ main {
 	text-decoration: none;
 }
 
+/*menu*/
+.underline_on_hover:hover {
+    text-decoration: underline;
+}
+
 /* the image and elements to the right of it */
 
 .section_product {
