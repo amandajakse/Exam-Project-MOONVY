@@ -1,85 +1,7 @@
-/** HERE WE WRITE CSS **/
-
-/* Basic CSS reset */
-*,
-:after,
-:before {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	box-sizing: border-box;
-}
-
-html {
-	font-size: 100%;
-	font-family: 'Poppins', sans-serif;
-	background-color: white;
-}
-
-.page_body {
-	max-width: 100%;
-	padding: 5px;
-	margin: 0 auto;
-}
-
-html {
-	padding: 0;
-	margin: 0;
-}
-
-h1,
-h2,
-h3 {
-	font-family: Cambria, Georgia, serif;
-	font-weight: 700;
-	color: #9A6E6E;
-	/** font-family: 'Playfair Display', serif; **/
-}
-
-h1 {
-	font-size: 33px;
-}
-
-h2 {
-	font-size: 20px;
-}
-
-h3 {
-	font-size: 15px;
-}
-
-
-/**-----HEADER-----**/
-
-.navigation_container {
-	position: sticky;
-	top: 0;
-	z-index: 100;
-}
-
-.header_top {
-	background-color: #DBBEC0;
-}
-
-
-.menuitems_container {
-	display: flex;
-	justify-content: center;
-	background-color: white;
-}
-
-.menuitem {
-	padding: 10px;
-	margin: 0 70px;
-	color: #9A6E6E;
-	text-decoration: none;
-	text-align: center;
-	font-size: 20px;
-	font-family: Cambria, Georgia, serif;
-}
+/* active element in the navigation bar*/
 
 .active_menuitem {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 .underline_on_hover:hover {
@@ -159,47 +81,9 @@ form {
 	background-color: #DBBEC0;
 }
 
-/**-----FOOTER-----**/
-
-.footer_container {
-	background-color: #DBBEC0;
-	padding: 60px;
-	color: white;
-	margin-top: 40px;
-}
-
-.footer_header {
-	margin-bottom: -10px;
-}
-
-.some_logo {
-	height: 70px;
-}
 
 
-.footer_section {
-	display: flex;
-	justify-content: center;
-}
-
-.footer_element {
-	margin: 0 80px;
-}
-
-
-.footer_link {
-	text-decoration: none;
-	color: white;
-}
-
-.underline {
-	background-color: white;
-	width: 200px;
-	height: 3px;
-	margin: 20px 0;
-}
-
-
+/* mobile version */
 
 @media only screen and (max-width: 800px) {
 	.container {
