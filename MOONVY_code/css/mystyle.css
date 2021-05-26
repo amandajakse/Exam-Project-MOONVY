@@ -119,8 +119,12 @@ h3 {
 
 .some_logo {
 	height: 70px;
+
 }
 
+.no_underline {
+	text-decoration: none;
+}
 
 .footer_section {
 	display: flex;
@@ -247,7 +251,6 @@ h3 {
 
 	.footer_element {
 		margin-top: 50px;
-
 		width: 100%;
 	}
 
