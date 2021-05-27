@@ -19,7 +19,7 @@ function changePhotoLoop() {
 }
 
 try {
-	setInterval(changePhotoLoop, 10000)
+	setInterval(changePhotoLoop, 5000)
 } catch {
 	console.log('setInterval only works on certain pages')
 }
