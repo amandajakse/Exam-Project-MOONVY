@@ -315,7 +315,6 @@ main {
 
 	.product_header {
 		display: flex;
-
 	}
 
 	.section_text {
@@ -333,6 +332,11 @@ main {
 		padding-right: 25px;
 	}
 
+	.new_tag {
+		text-align: center;
+		display: block;
+		margin-top: 6px;
+	}
 
 	.select {
 		width: 190px;
@@ -388,6 +392,7 @@ main {
 	.slideshow-container {
 		max-width: 100%;
 		padding-right: 0px;
+		margin-bottom: 20px;
 	}
 
 
@@ -398,7 +403,7 @@ main {
 	.dot {
 		height: 30px;
 		width: 30px;
-		margin: 0 10px;
+		margin: 0 10px 20px;
 	}
 
 }
