@@ -65,8 +65,18 @@ try {
 
 function myFunction() {
 	alert("Your message has been sent. MOONVY will get back at you shortly.");
+}
 
 
+/** event listener for 'add to bag' button **/
+try {
+	document.getElementById("addBtn").addEventListener("click", addToBag)
+} catch {
+	console.log('id addBtn not found')
+}
+
+function addToBag() {
+	alert("Item added to bag");
 }
 
 

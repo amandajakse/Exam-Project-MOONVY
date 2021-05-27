@@ -42,35 +42,20 @@
 	background-color: #DBBEC0;
 }
 
-.dots {
-	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white;
-	display: flex;
-}
 
-.dot {
-	width: 20px;
-	height: 20px;
-	border-radius: 100px;
-	background-color: white;
-	margin: 0 10px;
-}
 
+
+/*bouncing arrow https://codepen.io/bitstarr/pen/XjaJGz*/
+
+.bounce {
+	animation: bounce 2s infinite;
+}
 
 .arrow {
 	width: 50px;
 	display: block;
 	margin: auto;
 	margin-top: -40px
-}
-
-/*bouncing arrow https://codepen.io/bitstarr/pen/XjaJGz*/
-
-.bounce {
-	animation: bounce 2s infinite;
 }
 
 
